@@ -1,5 +1,5 @@
 {% set name = "python-localvenv-kernel" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-localvenv-kernel-{{ version }}.tar.gz
-  sha256: 930ada9382f21f6da7dab6567e0caeb96f4d239f73aca6a00e6b71f0e97423ef
+  sha256: 7ccbd3e1485bc8c42410a0a0f3ba60fb29356cf341bbffc22b69082a4342dd4f
 
 build:
   noarch: python
